@@ -1,0 +1,141 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  blackground-color:black;
+  opacity:0.9;
+  text-align: center;
+}
+.maincontainer{
+  align-items: center;
+  margin: 10px 10px;
+  background-color: black;
+}
+.head{
+  position: fixed;
+  display: flex;
+  height:69px;
+  border-bottom: 1px solid seashell;
+  width:100%;
+  background-color: black;
+  z-index: 1;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  background-image:url("/Users/rmcguigan/Projects/Unit4/TeaCozy/img-tea-cozy-logo.png");
+  background-size: cover;
+  height:50px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  width: 169px;
+  flex-grow: 0;
+}
+.head nav{
+  list-style: none;
+  display: inline-block;
+  margin-left:500px;
+  text-align: right;
+  position: absolute;
+  right:0;
+}
+.head a{
+  text-decoration: underline;
+  color:grey;
+
+}
+
+/*first section*/
+.mission{
+  display: flex;
+  height: 700px;
+  background-image:url("/Users/rmcguigan/Projects/Unit4/TeaCozy/img-mission-background.jpg");
+  padding-top:69px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:1200px;
+  height:150px;
+  margin-top:350px;
+  background-color:black;
+}
+/*second section*/
+.month{
+  position:
+  display: flex;
+  width: 1000px;
+  flex-direction:column;
+}
+/*three rows month section*/
+.t{
+  display: flex;
+  width:1000px;
+  flex-direction: column;
+}
+.t2{
+  width:1000px;
+  display: flex;
+  flex-grow:1;
+  justify-content: space-around;
+  flex
+}
+.t3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.t3 .tea{
+  margin-left: 30px;
+}
+
+.tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.tea img{
+  display:flex;
+  height:200px;
+  width:300px;
+}
+/*location section*/
+.location{
+  display: flex;
+  width:1000px;
+  height:500px;;
+  flex-direction: column;
+  background-image:url("/Users/rmcguigan/Projects/Unit4/TeaCozy/img-locations-background.jpg");
+  align-items:center;
+  padding-top:45px;
+  opacity: 1;
+}
+.locale{
+  width: 300px;
+  background-color: black;
+  margin-bottom:100px;
+}
+.locale span{
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+/*bottom sections*/
+.contact{
+  height:200px;
+}
+.bottom{
+  text-align:left;
+  margin-left:20px;
+}
